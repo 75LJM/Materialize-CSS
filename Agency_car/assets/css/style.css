@@ -1,0 +1,92 @@
+body, html{
+	font-family: sans-serif;
+    text-justify: auto;
+
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.brand-logo{
+    margin-top: 20px;
+}
+
+.firstSection{
+	background-image: url('../img/garage.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.contact {
+    border-top: 1px dashed black;
+    margin-top: 100px;
+    background-image: url('');
+
+}
+
+
+
+.contact .container,  {
+    margin-top: 100px;
+}
+
+.container h2{
+    margin-top: 50px;
+}
+
+.slider.ul{
+	height: 200vh;
+}
+
+/* Médias queries */
+@media screen and (max-width: 1000px){
+    header{
+    background-position: 0px 80px;
+        }
+    }
+
+
+@media screen and (max-width: 992px){
+    
+    .photosLR {
+        margin-top: 0;
+    }
+
+    .thirdImg{
+        margin: 60px 0;
+    }
+  
+}
+@media screen and (max-width: 700px){
+    header  {
+
+    background-position: -100px 80px;
+
+        }
+
+    }
+    
+        
+@media screen and (max-width: 600px){
+    h1{
+        color: #f1f1f1;
+        margin-top: 100px;
+    }
+    
+    header  {
+    height: 70vh;
+    background-position: -100px 100px;
+
+        }
+    #presentation{
+    padding-top: 250px;
+    }
+
+}
+
+
+

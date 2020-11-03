@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Materialize - Admin</title>
+</head>
+<body class="grey lighten-5 scrollspy">
+    <nav class="grey darken-2">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Admin</a>
+        <a href="#" data-activates="side-nav" class="button-collapse show-on-large right">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li >
+            <a href="index.html">Dashboard</a>
+          </li>
+          <li >
+            <a href="posts.html">Posts</a>
+          </li>
+          <li>
+            <a href="categories.html">Categories</a>
+          </li>
+          <li >
+            <a href="comments.html">Comments</a>
+          </li>
+          <li class="active">
+            <a href="users.html">Users</a>
+          </li>
+        </ul>
+        <!-- Side nav -->
+        <ul id="side-nav" class="side-nav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="assets/img/start.jpg" alt="">
+              </div>
+              <a href="#">
+                <img src="assets/img/perso4.jpg" alt="" class="circle">
+              </a>
+              <a href="#">
+                <span class="name white-text">John Doe</span>
+              </a>
+              <a href="#">
+                <span class="email white-text">jdoe@gmail.com</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="material-icons">dashboard</i> TB</a>
+          </li>
+          <li>
+            <a href="posts.html">Articles</a>
+          </li>
+          <li>
+            <a href="categories.html">Categories</a>
+          </li>
+          <li>
+            <a href="comments.html">Commentaires</a>
+          </li>
+          <li>
+            <a href="users.html">Utilisateurs</a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a class="subheader">Compte</a>
+          </li>
+          <li>
+            <a href="login.html" class="waves-effect">Déconnexion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- section -->
+  <section class="section section-users grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">
+                Users
+              </span>
+              <table class="striped">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th>Date d'inscription</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td width="70">
+                      <img src="assets/img/perso1.jpg" alt="perso 1" class="responsive img circle" style="width:40px;margin-left: 10px;">
+                    </td>
+                    <td>Jane Doe</td>
+                    <td>
+                        JaneDoe@gmail.com
+                    </td>
+                    <td>
+                        1 Octobre 2020
+                    </td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-4">Infos</a>
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td width="70">
+                      <img src="assets/img/perso2.jpg" alt="perso 2" class="responsive img circle" style="width:40px;margin-left: 10px;">
+                    </td>
+                    <td>Kylie Done</td>
+                    <td>
+                        KDone@gmail.com
+                    </td>
+                    <td>
+                        7 Octobre 2020
+                    </td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-4">Infos</a>
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td width="70">
+                      <img src="assets/img/perso3.jpg" alt="perso 3" class="responsive img circle" style="width:40px;margin-left: 10px;">
+                    </td>
+                    <td>Juliet Smith</td>
+                    <td>
+                        Jsmith@gmail.com
+                    </td>
+                    <td>
+                        3 Octobre 2020
+                    </td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-4">Infos</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="70">
+                      <img src="assets/img/perso4.jpg" alt="perso 4" class="responsive img circle" style="width:40px;margin-left: 10px;">
+                    </td>
+                    <td>John Doe</td>
+                    <td>
+                        jdoe@gmail.com
+                    </td>
+                    <td>
+                        3 Octobre 2020
+                    </td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-4">Infos</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-action">
+              <ul class="pagination">
+                <li class="disabled">
+                  <a href="#!" class="blue-text">
+                    <i class="material-icons">chevron_left</i>
+                  </a>
+                </li>
+                <li class="active grey lighten-2">
+                  <a href="#!" class="white-text">
+                    1
+                  </a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">
+                    2
+                  </a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">
+                    3
+                  </a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">
+                    4
+                  </a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">
+                    5
+                  </a>
+                </li>
+                <li class="disabled">
+                  <a href="#!" class="blue-text">
+                    <i class="material-icons">chevron_right</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- fixed action btn -->
+  <div class="fixed-action-btn">
+    <a href="#user-modal" class="modal-trigger btn-floating btn-large red">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+
+    <!-- user-->
+  <div id="user-modal" class="modal">
+    <div class="modal-content">
+      <h4>Ajout d'un(e) utilisateur(trice)</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="name">
+          <label for="name">ID</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Mot de passe</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password_confirm">
+          <label for="password_confirm">Confirmer votre mot de passe</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+ 
+  <footer class="section grey darken-2 white-text center">
+    <p>Admin &#169; 2020</p>
+  </footer>
+
+  <!-- preloader -->
+  <div class="preloader-wrapper big active loader">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
